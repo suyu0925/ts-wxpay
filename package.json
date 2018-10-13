@@ -1,0 +1,32 @@
+{
+  "name": "ts-wxpay",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/suyu0925/ts-wxpay.git",
+  "author": "suyu0925 <suyu0925@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build",
+    "build": "npm run lint && npm run compile",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "compile": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "request": "2.88.0",
+    "request-promise": "4.2.2",
+    "xml2js": "0.4.19"
+  },
+  "devDependencies": {
+    "@types/dotenv": "4.0.3",
+    "@types/jest": "23.3.2",
+    "@types/request-promise": "4.1.42",
+    "@types/xml2js": "0.4.3",
+    "dotenv": "6.0.0",
+    "jest": "23.6.0",
+    "ts-jest": "23.10.3",
+    "tslint": "5.11.0",
+    "typescript": "3.1.1"
+  }
+}
