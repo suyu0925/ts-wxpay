@@ -14,19 +14,19 @@
     "test": "jest"
   },
   "dependencies": {
-    "request": "2.88.0",
-    "request-promise": "4.2.2",
-    "xml2js": "0.4.19"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "@types/dotenv": "4.0.3",
-    "@types/jest": "23.3.2",
-    "@types/request-promise": "4.1.42",
-    "@types/xml2js": "0.4.3",
-    "dotenv": "6.0.0",
-    "jest": "23.6.0",
-    "ts-jest": "23.10.3",
-    "tslint": "5.11.0",
-    "typescript": "3.1.1"
+    "@types/dotenv": "^4.0.3",
+    "@types/jest": "^23.3.5",
+    "@types/request-promise": "^4.1.42",
+    "@types/xml2js": "^0.4.3",
+    "dotenv": "^6.1.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
   }
 }
