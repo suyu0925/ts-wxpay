@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "homepage": "https://github.com/suyu0925/ts-wxpay",
+  "bugs": "https://github.com/suyu0925/ts-wxpay/issues",
   "repository": "https://github.com/suyu0925/ts-wxpay.git",
   "author": "suyu0925 <suyu0925@gmail.com>",
   "license": "MIT",
